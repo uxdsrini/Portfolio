@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-primary mb-8 text-center;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8;
+  }
+}
+
+.rdp {
+  --rdp-cell-size: 40px;
+  --rdp-accent-color: #2A9D8F;
+  --rdp-background-color: #e7f5ff;
+  margin: 1em;
+}
